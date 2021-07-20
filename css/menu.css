@@ -1,0 +1,22 @@
+#menu {
+    line-height: 42px;
+    background-color: #3C5999;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 119px;
+    padding-right: 124px;
+}
+.menu-item {
+   display: flex;
+}
+.menu-item > div {
+    margin-left: 47px;
+}
+ form input {
+     width: 502px;
+     height: 32px;
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 7px 17px;
+     box-sizing: border-box;
+ }
