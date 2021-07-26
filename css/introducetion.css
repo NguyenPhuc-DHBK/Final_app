@@ -1,66 +1,99 @@
 body {
     font-family: "Roboto";
 }
-#content {
+
+div#content {
     background-color: #f8f8f8;
+    height: auto;
 }
-.content-middle {
+div.middle {
+    background-color: white;
+    height: 1000px;
+    margin-top: 20px;
+}
+div.button-menu {
     margin-top: 30px;
-    background-color:white;
+}
+
+div.btn-group {
+    border-radius: 3px 0px 0px 3px;
+}
+div.btn-group a {
+    color: #3c5999;
+    border: 1px solid #3c5999;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+div.btn-group a:focus {
+    background-color: #3c5999;
+    color: white;
+}
+div.picture a img {
+    border-radius: 3px 0px 0px 3px;
+}
+div.info {
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px 0px 0px 3px;
+    height: 255px;
    
 }
-
-div.top {
-    display: flex;
-    justify-content: center;
-}
-div.btn-group {
-    border: 1px solid #3C5999;
-    border-radius: 5px;
-}
-div.btn-group button {
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 18px;
-    color: #3C5999;
-}
-
-div.btn-group button:focus {
-    background-color: #3C5999;
-    color: white;
-}
-div.name-user {
-    display: flex;
-    margin-bottom: 10px;
-}
-div.logo-user {
+div.user-icon {
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background-color: #3C5999;
+    background-color: #3c5999;
     color: white;
-    text-align: center;
+    border-radius: 50%;
     font-size: 13px;
     line-height: 15px;
     padding-top: 8px;
-    margin-right: 10px;
+   
 }
 
 div.name {
-    color: #3C5999;
-    font-size: 13px;
+    color: #3c5999;
     font-weight: bold;
+    font-size: 13px;
     line-height: 15px;
-    margin-top: 10px;
+    margin-top: 9px;
+    margin-left: 5px;
 }
-
 div.title {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
-div.likes {
-    
+div.para {
+    font-size: 13px;
+    line-height: 15px;
 }
+div.day-post {
+    margin-top: 75px;
+}
+div.icon-heart {
+    width: 12,47px;
+    height: 12px;
+    color: #e0e0e0;
+}
+div.number-likes {
+    font-size: 10px;
+    line-height: 12px;
+    color: #3c5999;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+div.time {
+    font-size: 10px;
+    line-height: 12px;
+    color: #bdbdbd;
+    margin-top: 5px;
+    margin-left: 120px;
+}
+

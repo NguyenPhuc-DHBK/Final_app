@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="Document_files/bootstrap.css">
+<!-- jQuery library -->
+<script src="Document_files/jquery.js"></script>
+<!-- Popper JS -->
+<script src="Document_files/popper.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="Document_files/bootstrap.js"></script> 
+<link rel="stylesheet" href="Document_files/introducetion.css">
+<link rel="stylesheet" href="Document_files/menu.css">
+<script src="Document_files/introducetion.js"></script>
+<link rel="stylesheet" href="Document_files/font-awesome.css">
+</head>
+<body>
+  <div id="menu" class="container-fluid">
+      <div class="menu-item">
+          <div class="menu-item-logo"> 
+            <a href="#" style="font-size: 20px; font-weight: bold; color: white; text-decoration: none;">Fotobook</a>
+          </div>
+          <div class="menu-item-form">
+            <form action="#">
+                <input type="text" placeholder="Search Photo / Album">
+            </form>
+          </div>
+      </div>
+        <div class="menu-item">
+            <a href="#" style="font-weight: bold; font-size: 15px; color: white; text-decoration: none;">Login</a>
+        </div>
+  </div>
+  <div id="content">
+      <div class="row">
+          <div class="content-left col-2"></div>
+          <div class="content-middle col-8">
+              <div class="top">
+                  <div class="btn-group">
+                      <button type="button" class="btn">PHOTO</button>
+                      <button type="button" class="btn">ALBUM</button>
+                  </div>
+              </div>
+              <div class="bottom" style="margin-top: 30px">
+                  <div class="row">
+                      <div class="col-6" style="display: flex; background-color: #f8f8f8; width: 100%; box-shadow: 3px 3px #e0e0e0;">
+                          <div class="bottom-content">
+                              <img src="Document_files/index.jpeg" alt="">
+                          </div>
+                          <div class="button-content" style="padding: 15px;">
+                            <div class="name-user">
+                                <div class="logo-user">HN</div>
+                                <div class="name">Hieu Nguyen</div>
+                            </div>
+                            <div class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                            <div class="pragrapth">
+                                <p>Lorem, ipsum dolor sit amet 
+consectetur adipisicing elit. Quia ea sunt eaque error recusandae quas 
+quidem at nihil, vitae ducimus!</p>
+                            </div>
+                            <div class="likes">
+                                <div class="likes-item">
+                                    <div class="icon-heart">
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+                                    <div class="number-like">123</div>
+                                </div>
+                                <div class="likes-item">
+                                    <div class="date-time">
+                                        4:56 pm 01/04/2018
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                     
+                      <div class="col-6" style="display: flex; background-color: #f8f8f8; width: 100%; box-shadow: 3px 3px #e0e0e0;margin: -5px;margin-left: -5px;width: 90%;">
+                        <div class="bottom-content">
+                            <img src="Document_files/index.jpeg" alt="">
+                        </div>
+                        <div class="button-content" style="padding: 15px;">
+                          <div class="name-user">
+                              <div class="logo-user">HN</div>
+                              <div class="name">Hieu Nguyen</div>
+                          </div>
+                          <div class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                          <div class="pragrapth">
+                              <p>Lorem, ipsum dolor sit amet consectetur
+ adipisicing elit. Quia ea sunt eaque error recusandae quas quidem at 
+nihil, vitae ducimus!</p>
+                          </div>
+                          <div class="likes">
+                              <div class="likes-item">
+                                  <div class="icon-heart">
+                                      <i class="fa fa-heart"></i>
+                                  </div>
+                                  <div class="number-like">123</div>
+                              </div>
+                              <div class="likes-item">
+                                  <div class="date-time">
+                                      4:56 pm 01/04/2018
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="content-right col-2"></div>
+      </div>
+  </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

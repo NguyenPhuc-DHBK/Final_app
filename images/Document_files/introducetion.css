@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto";
+}
+#content {
+    background-color: #f8f8f8;
+}
+.content-middle {
+    margin-top: 30px;
+    background-color:white;
+   
+}
+
+div.top {
+    display: flex;
+    justify-content: center;
+}
+div.btn-group {
+    border: 1px solid #3C5999;
+    border-radius: 5px;
+}
+div.btn-group button {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #3C5999;
+}
+
+div.btn-group button:focus {
+    background-color: #3C5999;
+    color: white;
+}
+div.name-user {
+    display: flex;
+    margin-bottom: 10px;
+}
+div.logo-user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #3C5999;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    padding-top: 8px;
+    margin-right: 10px;
+}
+
+div.name {
+    color: #3C5999;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+div.title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+div.likes {
+    display: flex;
+    justify-content: space-between;
+}
+div.likes-item {
+    display: flex;
+    position: relative;
+}
+div.icon-heart {
+    color: #e0e0e0;
+    font-size: 13px;
+    line-height: 15px;
+    align-items: center;
+}
+div.number-like {
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    color: #3C5999;
+    margin-left: 10px;
+}
+div.date-time {
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    color: #bdbdbd;
+}

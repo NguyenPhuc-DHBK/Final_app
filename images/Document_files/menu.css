@@ -12,11 +12,8 @@
 .menu-item > div {
     margin-left: 47px;
 }
-.menu-item-form {
-    width: 70%;
-}
  form input {
-     width: 100%;
+     width: 502px;
      height: 32px;
      border: 1px solid white;
      border-radius: 5px;
