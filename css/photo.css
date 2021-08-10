@@ -31,6 +31,9 @@ div.btn-group a:focus {
     background-color: #3c5999;
     color: white;
 }
+div.picture {
+    height: 255px;
+}
 div.picture a img {
     border-radius: 3px 0px 0px 3px;
 }
@@ -96,4 +99,5 @@ div.time {
     margin-top: 5px;
     margin-left: 120px;
 }
+
 

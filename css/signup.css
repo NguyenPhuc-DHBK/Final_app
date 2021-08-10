@@ -24,7 +24,7 @@ a img {
 
 .form-login {
     width: 436px;
-    height: 421px;
+    height: auto;
     background-color: #f9f9f9;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -32,13 +32,13 @@ a img {
 }
 
 
-label {
+label.text {
     font-size: 15px;
     font-weight: bold;
     line-height: 18px;
     align-items: center;
 }
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="email"] {
     width: 307px;
     height: 44px;
     background-color: white;
@@ -54,4 +54,10 @@ button {
     font-weight: bold;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+}
+
+#formsignup label.error {
+    color: red;
+    display: block;
+    font-style: italic;
 }

@@ -27,6 +27,22 @@ div.top-content {
     height: 238px;
     line-height: 238px;
     padding-left: 43px;
+    margin-bottom: 40px;
+    position: relative;
+}
+div.top-content button {
+    width: 130px;
+    height: 31px;
+    background-color: #219653;
+    color: white;
+    text-align: center;
+    border-radius: 29px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    position: absolute;
+    top: 207px;
+    left: 85%;
 }
 div.info-user {
     margin-top: 41px;
@@ -50,6 +66,37 @@ div.name-user {
     font-size: 45px;
     line-height: 53px;
     margin-top: 13px;
+}
+div.picture-info {
+    margin: 20px;
+}
+div.picture {
+    position: relative;
+}
+div.key {
+    position: absolute;
+    top: 3.7%;
+    left: 87%;
+}
+div.key button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+div.edit {
+    position: absolute;
+    top: 85%;
+    left: 75%;
+}
+div.edit button {
+    width: 37px;
+    height: 18px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-size: 10px;
+    line-height: 18px;
+    color: white;
 }
 div.info-detail {
     margin-top: 0px;
@@ -84,7 +131,4 @@ div.title {
 }
 div.d-flex {
     margin-bottom: 29px;
-}
-div.picture-info {
-    margin: 20px;
 }

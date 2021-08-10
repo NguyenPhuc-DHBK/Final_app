@@ -33,6 +33,7 @@ div.albums {
     background-color: #f2f2f2;
     padding: 20px;
     position: relative;
+    margin: 20px 20px 20px 5px;
 }
 div.albums img {
     border: 1px solid #e0e0e0;
@@ -46,15 +47,11 @@ img.pic-1 {
 img.pic-2 {
     position: absolute;
     z-index: 2;
+    transform: rotate(4deg);
 }
 img.pic-3 {
     position: absolute;
     z-index: 1;
-}
-img.pic-2 {
-    transform: rotate(4deg);
-}
-img.pic-3 {
     transform: rotate(10deg);
 }
 div.title { 

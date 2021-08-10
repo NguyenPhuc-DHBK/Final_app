@@ -80,11 +80,49 @@ div.title {
     line-height: 14px;
     text-align: center;
     color: #4f4f4f;
-    margin-top: 8px;
+    margin-top: 210px;
 }
 div.d-flex {
     margin-bottom: 29px;
 }
 div.picture-info {
-    margin: 20px;
+    margin: 20px 20px 10px 20px;
+}
+div.picture {
+    position: relative;
+}
+div.number-photo {
+    width: 89px;
+    height: 89px;
+    border-radius: 50%;
+    background-color: rgba(51, 51, 51, 0.4);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 26%;
+    padding: 15px;
+    margin-top: 48px;
+    z-index: 4;
+}
+div.picture img {
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+}
+img.pic-1 {
+    position: absolute;
+    z-index: 3;
+}
+img.pic-2 {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(4deg);
+}
+img.pic-3 {
+    position: absolute;
+    z-index: 1;
+    transform: rotate(10deg);
 }

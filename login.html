@@ -15,7 +15,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 <link rel="stylesheet" href="css/login.css">
 <link rel="stylesheet" href="css/menu.css">
-<script src="js/introducetion.js"></script>
+<script src="js/login.js"></script>
+<script src="js/jquery.validate.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -54,11 +55,11 @@
                 <img src="images/l60Hf.png" alt="" class="rounded-circle" style="width: 99px; height: 99px;">
             </div>
             <div class="form">
-                <form action="">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
+                <form action="" id="formlogin" method="POST">
+                    <input type="email" placeholder="Email" id="email" name="email">
+                    <input type="password" placeholder="Password" id="password" name="password">
                     <div class="d-flex justify-content-center" style="margin-top: 14px;">
-                        <button type="button">Login</button>
+                        <button type="submit">Login</button>
                     </div>
                 </form>
             </div>
